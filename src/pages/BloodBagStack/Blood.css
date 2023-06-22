@@ -1,0 +1,11 @@
+.head {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 300%;
+  /* font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", */
+  /* "Lucida Sans Unicode", Geneva, Verdana, sans-serif; */
+}
+.d-flex {
+  margin-left: 50px;
+  margin-right: 50px;
+}

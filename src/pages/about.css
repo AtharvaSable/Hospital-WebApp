@@ -1,0 +1,123 @@
+.about-background {
+  /* background-image: src=
+      "https://www.consensusortho.com/wp-content/uploads/2019/10/Blog-Website-Header_Location-of-Patients.png"; */
+  /* height: 100vh; */
+}
+
+.home-heading_h {
+  color: rgb(70, 70, 182);
+  font-size: 40px;
+}
+.abt {
+  background-color: rgb(14, 84, 141);
+  margin-top: -200px;
+  height: 40vh;
+}
+.abt-features {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 50px;
+}
+
+.abt-features > .flex-row-item {
+  flex: 1 1 30%; /*grow | shrink | basis */
+  height: 170px;
+  /* margin-top: -100px; */
+  background-color: whitesmoke;
+  margin: 5px;
+}
+
+.abt-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  height: 60vh;
+  width: 100%;
+  padding-top: 100px;
+}
+/* .abt-subsection {
+    padding-top: -100px;
+  } */
+
+.abt-img {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  filter: blur(5px);
+  z-index: -5;
+}
+
+.feature-title {
+  color: black;
+  padding-top: 20px;
+}
+.flex-row-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+}
+.feature-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 60px;
+  background-color: rgb(14, 84, 141);
+  text-align: center;
+  /* margin-left: 5px; */
+}
+.about-doc {
+  height: 640px;
+  width: 520px;
+  /* box-shadow: 8px 8px 8px 0px white; */
+  margin-top: -80px;
+}
+
+.home-heading {
+  padding: 0%;
+}
+.doc-info-title {
+  text-align: center;
+  padding-top: 60px;
+}
+.doc-info {
+  display: flex;
+  flex-direction: column;
+}
+.our-team-sec {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 40px;
+}
+.doc-info-left {
+  padding-left: 80px;
+}
+.doc-info-right {
+  padding-right: 80px;
+}
+.trial {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.left-div .right-div {
+  display: flex;
+  flex-direction: column;
+}
+.abt-hospital-heading {
+  padding-top: 40px;
+  text-align: center;
+}
+.abt-hospital-subheading {
+  padding: 30px;
+  text-align: center;
+}

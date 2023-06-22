@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+html,
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+html {
+  /* background: rgb(237, 226, 226); */
+  background: white;
+  /* background-image: linear-gradient(to bottom right,rgb(213, 221, 227),rgb(29, 95, 218)); */
+  /* background-image: url(https://s3.postimg.org/s1n3ji1ur/paper_fibers_2_X.png); */
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  background-attachment: fixed;
+}
+
+.card-container {
+  margin: 15px 30px;
+  position: relative;
+  width: 300px;
+  height: 130px;
+
+  justify-content: space-around;
+  display: inline-flex;
+}
+
+.card-position {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-container img {
+  width: 75px;
+  height: 75px;
+  margin-top: 20px;
+  margin-right: 10px;
+
+  /* padding: 5px; */
+}
+
+.card {
+  border-radius: 10px;
+
+  padding: 1px;
+  margin-right: 5px;
+  position: relative;
+  width: 320px;
+
+  z-index: 1;
+  /* box-shadow: 10px 10px 5px rgb(101, 109, 111); */
+  /* box-shadow: inset 0 -0.4em 10px rgb(78, 73, 73); */
+  box-shadow: 0.4rem 0.6rem 0.5rem rgba(78, 73, 73);
+
+  /* box-shadow: 1px 5px 2px 3px rgba(118, 115, 115, 0.9); */
+
+  display: flex;
+  flex-direction: row;
+}
+
+.card-num {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 55px;
+
+  /* margin: 10px 0; */
+  /* padding: 10px; */
+}
+
+.title-1,
+.title-2 {
+  text-align: center;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 50px;
+  font-weight: 300;
+  line-height: 50px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.title-1 {
+  color: rgb(179, 43, 43);
+}
+.title-2 {
+  color: rgb(33, 33, 78);
+}
+
+.title-flex {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.card-title {
+  font-size: 28px;
+  /* padding-right: 20px; */
+  padding: 0px;
+  margin: 0px;
+  width: 180px;
+  /* padding-right: 0px; */
+  /* text-align: center; */
+  /* margin-top: 30px; */
+}
+
+#bedcol {
+  color: blue;
+}
+
+#doccol {
+  color: rgb(241, 1, 1);
+}
+
+#patcol {
+  color: rgb(33, 157, 215);
+}
+
+#blocol {
+  color: rgb(145, 27, 255);
+}
+
+#nurcol {
+  color: rgb(255, 160, 58);
+}
+
+#romcol {
+  color: rgb(243, 53, 243);
+}
+
+#accol {
+  color: rgb(169, 18, 250);
+}
+
+#repcol {
+  color: rgb(47, 210, 47);
+}
+
+#opcol {
+  color: rgb(228, 4, 187);
+}
+#bircol {
+  color: rgb(239, 153, 61);
+}
+
+.dash-menu {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}

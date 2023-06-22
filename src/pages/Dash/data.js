@@ -1,0 +1,88 @@
+const articles = [
+  {
+    name: "doc",
+    title: "Beds",
+    thumbnail: "/images/bed.png",
+    color: "bedcol",
+    database: "56",
+  },
+  {
+    name: "doc",
+    title: "Doctors",
+    thumbnail: "/images/dash_doc.jpg",
+    color: "doccol",
+    database: "10",
+  },
+  {
+    name: "doc",
+    title: "Patients",
+    thumbnail: "/images/dash1.jpg",
+    color: "patcol",
+    database: "456",
+  },
+  {
+    name: "doc",
+    title: "Blood",
+    thumbnail: "/images/dash_blood.png",
+    color: "blocol",
+    database: "12",
+  },
+  {
+    name: "doc",
+    title: "Nurses",
+    thumbnail: "/images/data_nurse.jpg",
+    color: "nurcol",
+    database: "23",
+  },
+  {
+    name: "doc",
+    title: "Rooms",
+    thumbnail: "images/room.png",
+    color: "romcol",
+    database: "13",
+  },
+  {
+    name: "doc",
+    title: "Accountant",
+    thumbnail: "/images/accountant.png",
+    color: "accol",
+    database: "2",
+  },
+  {
+    name: "doc",
+    title: "Receptionist",
+    thumbnail: "/images/recp.png",
+    color: "repcol",
+    database: "2",
+  },
+  {
+    name: "doc",
+    title: "Op. Report",
+    thumbnail: "/images/operation.png",
+    color: "opcol",
+    database: "3",
+  },
+  {
+    name: "doc",
+    title: "Birth Report",
+    thumbnail: "/images/birth.jpg",
+    color: "bircol",
+    database: "1",
+  },
+  {
+    name: "doc",
+    title: "Op. Report",
+    thumbnail: "/images/operation.png",
+    color: "opcol",
+    database: "3",
+  },
+  {
+    name: "doc",
+    title: "Birth Report",
+    thumbnail: "/images/birth.jpg",
+    color: "bircol",
+    database: "1",
+  },
+];
+
+export default articles;

@@ -1,0 +1,47 @@
+/* .form-group{
+    padding-top: 40px;
+} */
+
+.row {
+  padding-top: 20px;
+  border-width: 10px;
+}
+.signin-heading {
+  color: steelblue;
+  display: block;
+  margin-left: auto;
+
+  padding-left: 140px;
+  padding-top: 20px;
+}
+
+.page {
+  display: flex;
+  flex-direction: row;
+}
+.image {
+  background-image: url("https://images.pexels.com/photos/7407049/pexels-photo-7407049.jpeg?auto=compress&cs=tinysrgb&w=600");
+  background-size: cover;
+
+  height: 100%;
+  width: 100%;
+}
+.signin-miniheading {
+  text-align: center;
+  padding-top: 20px;
+
+  margin-left: 43%;
+  margin-right: 20%;
+}
+.signin-logo {
+  display: block;
+  margin-left: 50%;
+  margin-right: 50%;
+  width: 20%;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.right-signup {
+  padding-left: 30px;
+}
